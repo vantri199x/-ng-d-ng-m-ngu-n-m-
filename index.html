@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Kiểm phiếu - Captain Jack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚓ Kiểm Phiếu Siêu Tốc</h1>
+        <div class="input-group">
+            <input type="number" id="voterInput" placeholder="Nhập mã ứng viên...">
+            <button onclick="addVote()">Cộng Phiếu</button>
+        </div>
+        <ul id="candidateList">
+            <li>Ứng viên 1: <span id="count1">0</span> phiếu</li>
+            <li>Ứng viên 2: <span id="count2">0</span> phiếu</li>
+        </ul>
+        <p>Tổng số phiếu: <span id="total">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
